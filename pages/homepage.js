@@ -1,14 +1,14 @@
-import Nav from '../components/nav'
-import Activity from '../components/activity'
+import Nav from "../components/nav";
+import Activity from "../components/activity";
 
 const HomePage = () => {
   return (
-    <div className='flex'>
+    <div className="flex">
       <Nav />
-      <div className='w-full'>{/* Start coding here */}</div>
+      <div className="w-full">Spotify</div>
       <Activity />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
